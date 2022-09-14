@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    font-size: 2rem;
+}
+
+.header-brand {
+    font-family: $default-logo-font-family;
+    margin: 1em 0;
+    
+   
+    
+
+
+
+}
+
+
+
+
+
+
+.header__nav-item--active  {
+    color: rgba(165, 253, 238, 0.8);
+    animation: neonspark 1s 1s forwards;
+}
+
+.header__nav-item {
+    display: inline-block;
+    margin:0 5px;
+}
+
+
+@keyframes neonspark {
+    0% {
+      text-shadow: none;
+    }
+    30% {
+      text-shadow: 0 0 30px rgba(22, 224, 189, 0.6);
+    }
+    60% {
+      text-shadow: 0 0 30px rgba(22, 224, 189, 0.6),
+        0 0 60px rgba(22, 224, 189, 0.4);
+    }
+    80% {
+      text-shadow: none;
+    }
+    100% {
+      text-shadow: 0 0 30px rgba(22, 224, 189, 0.6),
+        0 0 60px rgba(22, 224, 189, 0.4), 0 0 100px rgba(22, 224, 189, 0.2),
+        0 0 90px rgba(22, 224, 189, 0.1);
+    }
+  }

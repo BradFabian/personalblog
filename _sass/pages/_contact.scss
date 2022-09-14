@@ -1,0 +1,143 @@
+.contact-me__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    margin: 0 auto;
+    }
+    
+    .contact-me__paragraph {
+        font-size: 2rem;
+        line-height: 1.6;
+        letter-spacing: 2px;
+        word-spacing: .4px;
+        padding: 10px;
+        margin: 10px;
+        max-width: 70%;
+    }
+    
+    .contact-me__paragraph span {
+        font-size: 4rem;
+        font-weight: 500;
+    
+    }
+    
+    .details-area input {
+        display: block;
+        
+    }
+    
+    .details-area .input-block:not(:first-child):not(:last-child){
+        margin: 25px 0;
+    }
+    
+    
+    
+    .form-area {
+        margin: 20px;
+    }
+    button[type=submit]:hover,
+    a.button:hover {
+        background: #00dd00;
+        color: #383838;
+        opacity: 0.8;
+    }
+    
+    
+    input[type=text]:focus,
+    textarea:focus,
+    button[type=submit]:focus,
+    a.button:focus {
+        outline: 0;
+    }
+    
+    button[type=submit],
+    a.button {
+        background: transparent;
+        border: 1px solid #00dd00;
+        clear: both;
+        color: #00dd00;
+        cursor: hand;
+        display: inline-block;
+        font-family: 'VT323', Courier;
+        font-size: 1em;
+        margin: 20px auto;
+        opacity: 0.25;
+        padding: 10px 100px;
+        position: relative;
+        text-decoration: none;
+        text-transform: uppercase;
+        z-index: 10;
+    }
+    textarea {
+        width: 100%;
+        height: 40%;
+        margin: 0 20px;
+        border-radius: 1rem;
+        border: 2px solid  #00dd00;
+        outline:none;
+        background-color: inherit;
+        transition: all 0.2s;
+        color:#00dd00;
+    }
+    
+    textarea:focus {
+        height:100%;
+      }
+    
+    textarea::placeholder {
+        color: #00dd0098;
+    }
+    
+      .input-block {
+        position: relative;
+      }
+      .input-block input {
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: #00dd00;
+        width: 80%;
+        padding: 15px 15px;
+        border-radius: 1rem;
+        border: 2px solid  #00dd00;
+        outline:none;
+        background-color: inherit;
+        transition: all 0.2s;
+      }
+    
+      .input-block input:focus {
+        width:100%;
+      }
+      .input-block span.placeholder {
+        position: absolute;
+        margin: 17px 0;
+        
+        font-family: inherit;
+        color:#00dd00;
+        display: flex;
+        align-items: center;
+        font-size: 1.6rem;
+        top: 0;
+        left: 17px;
+        transition: all 0.2s;
+        transform-origin: 0% 0%;
+        background: none;
+        pointer-events: none;
+      }
+      .input-block input:valid + span.placeholder,
+      .input-block input:focus + span.placeholder {
+        transform: scale(1) translateY(-43px);
+        background: inherit;
+        
+      }
+      .input-block input:focus{
+        
+        border-color: #46dd00;
+      }
+      
+      .form-area-container {
+        display: flex;
+        flex-direction: row;
+    
+      }
