@@ -11,8 +11,10 @@ title: Home
 <div class="container">
         <main class="blogposts">
            <div class="blogposts__grid">
-                <div class="blogposts__grid-item"><h2>forEach() vs map()</h2><p>The main difference between map and forEach is that the map method returns a new array by applying the callback function on each element of an array, while the forEach method doesn’t return anything. You can use the forEach method to mutate the source array, but this isn't really the way it's meant to be used. Instead, it's great for when you need to do some action with each element of the array.</p><div class="blogposts__grid-tags"> Tags:<ul><li><a>Javascript</a></li>
+            {% for post in site.posts %}
+                <div class="blogposts__grid-item"><h2><a href="{{ post.url }}">{{ post.title }}</a></h2><p>{{ post.excerpt }}</p><div class="blogposts__grid-tags"> Tags<ul><li><a>Javascript</a></li>
                 <li><a>Loops</a></li></ul></div></div>
+                {% endfor %}
                 <div class="blogposts__grid-item"><h2>Get to Know the HTML Drag and Drop API</h2><p>HTML Drag and Drop interfaces enable applications to use drag-and-drop features in browsers. The user may select draggable elements with a mouse, drag those elements to a droppable element, and drop them by releasing the mouse button. A translucent representation of the draggable elements follows the pointer during the drag operation.</p><div class="blogposts__grid-tags"> Tags:<ul><li><a>Javascript</a></li>
                 <li><a>APIs</a></li>
                 <li><a>DomEvents</a></li></ul></div></div>
