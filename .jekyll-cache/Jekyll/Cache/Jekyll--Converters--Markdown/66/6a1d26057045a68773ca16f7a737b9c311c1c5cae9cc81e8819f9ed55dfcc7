@@ -1,0 +1,4 @@
+I"�<p>“A modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup”
+— Mathias Biilmann (CEO &amp; Co-founder of Netlify).
+In 2016 Mathias Billmann presented the idea of using client side Javascript , APIs and Markdown at an Smashing Con 2016. This idea of decoupling backend and empowering the front end developers was revolutionary. Since than, the Jamstack has matured and is coming to its own. An developer can build blogs, small to medium business site, even complex enteprise ecommerce archetitecture around its principles. The flexibility to make your grandmas blog and add an cms link <a href="https://www.sanity.io/">Sanity</a>, throw on an shopping cart with <a href="https://snipcart.com/">Snipcart</a>, charge with stripe<a href="https://stripe.com/">Stripe</a> to make some dough from her macrame.  Is extremly useful and plain out fun.</p>
+:ET
