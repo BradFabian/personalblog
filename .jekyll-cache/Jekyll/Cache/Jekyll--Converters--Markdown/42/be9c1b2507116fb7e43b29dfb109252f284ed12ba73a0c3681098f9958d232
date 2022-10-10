@@ -1,0 +1,28 @@
+I"2
+<p>October is one of my favorite months. The weather finally starts to cool, halloween is my favorite holdiay and contributing to open source becomes a monthly celebration. Hacktober Fest was started by (Digital Ocean)[https://www.digitalocean.com/] as a way to promote and celebrate contributing to open source projects. It’s been an annual event for the last 9 years. When you complete the challenge of 4 approved pull requests you get some swag. I have t shirts from the last five years however this year they let you plant a tree in your name. As much as I love their swag, I love that option and will do the tree this year.</p>
+
+<p>What are open source projects?</p>
+
+<p>It’s an style of sharing and collabrotive development so products are open and free to use by developers for developers. I’ve been a huge fan of open source. As someone who is self taught it’s been a boone for my skills and even gained some friendships along the way.</p>
+
+<p>If you want to grow your skills contribute to open source.
+Hacktober Fest as this great resource for beginners :
+https://hacktoberfest.com/participation/#beginner-resources</p>
+
+<p>Also I enjoy helping out the MDN communtiy. A great place to start is bugzilla. 
+They have bugs that are easy to fix yet they make you familiar with the mozilla development process.
+https://bugzilla.mozilla.org/buglist.cgi?quicksearch=good-first-bug</p>
+
+<p>Click here for <a href="https://github.com/topics/hacktoberfest">Hacktober Fest Repos</a> and just have fun contributing!</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sayHello</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span><span class="p">(</span><span class="o">!</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello World</span><span class="dl">'</span><span class="p">);</span>
+
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">`Hello </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">`</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>💖 Brad</p>
+:ET
