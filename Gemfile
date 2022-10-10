@@ -4,8 +4,8 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-# gem "jekyll", "~> 4.2"
-gem "github-pages", "~> 227"
+gem "jekyll", "~> 4.2"
+
 
 group :jekyll_plugins do
     gem 'jekyll-sitemap'
