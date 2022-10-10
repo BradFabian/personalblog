@@ -2,7 +2,7 @@
 layout: post
 author: B-rad
 title: Another Fun Hacktober Fest
-tags: [Hacktoberfest]
+tags: [Hacktoberfest, Open Source, Git]
 ---
 
 

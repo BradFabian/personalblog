@@ -137,7 +137,9 @@ header { display: flex; justify-content: space-around; align-items: center; alig
 
 .blogposts__grid-tags { display: flex; flex-direction: row; justify-content: center; align-items: center; }
 
-footer { width: 100%; background-color: rgba(0, 0, 0, 0.363); height: 30%; padding: 30px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.blogposts__main { max-width: 65%; }
+
+footer { width: 100%; background-color: rgba(0, 0, 0, 0.363); height: 30%; padding: 30px; margin-top: 1em; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
 .footer__group { display: flex; flex-direction: row; justify-content: space-around; align-items: center; width: 100%; }
 
