@@ -50,7 +50,7 @@ html:focus-within {
 body{
   height: 100%;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.6;
   background: #383838;
 	color: #00dd00;
   font-family: 'VT323', monospace;
@@ -166,9 +166,16 @@ textarea, input { outline: none; }
     margin: 20px;
   }
 
-  .about__content-container {
-    flex-direction: column;
-  }
+  .about__content-img {
+    max-width: 90%;
+}
+.blogposts__main  {
+  max-width: 100% !important;
+}
+
+.blogposts__main h1 {
+ text-align: center;
+}
 
   .blogposts__featured {
     margin: 20px;
