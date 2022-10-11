@@ -184,4 +184,21 @@ textarea, input { outline: none; }
   .form-area{
     margin: 40px !important;
   }
+
+  .footer__group {
+    flex-direction: column !important;
+  }
+
+  .footer__group ul {
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .footer__group-visitor {
+    margin: 10px 0;
+  }
+
+  .footer__legal {
+    font-size: 1.4rem;
+  }
 }
