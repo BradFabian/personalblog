@@ -5,17 +5,20 @@
    
 
 /// Contact Form Reset ///
+const locationURLArray = window.location.href.split('/'); 
+if(locationURLArray[3] === 'contact.html'){
+    const form  = document.getElementById('contact-form');
+
+    form.addEventListener('submit', function handleClick(event) {
+      // 👇️ if you are submitting a form (prevents page reload)
+      event.preventDefault();
+    
+      form.reset();
+    });
+
+}
 
 
-
-/*const form  = document.getElementById('contact-form');
-
-form.addEventListener('submit', function handleClick(event) {
-  // 👇️ if you are submitting a form (prevents page reload)
-  event.preventDefault();
-
-  form.reset();
-});*/
 
 
 /// Values For Visitor Counter ///
