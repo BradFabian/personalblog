@@ -89,6 +89,22 @@
     textarea::placeholder {
         color: #00dd0098;
     }
+
+    textarea.error {
+      border-color: #e74c3c;
+    }
+
+    .msg-area small {
+      color: #e74c3c;
+      position: absolute;
+      visibility: hidden;
+    }
+
+    .msg-area small.error {
+      visibility: visible;
+    }
+
+    
     
       .input-block {
         position: relative;
@@ -135,7 +151,21 @@
         
         border-color: #46dd00;
       }
-      
+      .input-block.error input {
+        border-color: #e74c3c;
+      }
+
+      .input-block small {
+        color: #e74c3c;
+        position: absolute;
+        visibility: hidden;
+      }
+
+      .input-block.error small {
+        visibility: visible;
+      }
+
+
       .form-area-container {
         display: flex;
         flex-direction: row;

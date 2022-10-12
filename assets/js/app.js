@@ -2,16 +2,30 @@
 /// Add active class to Nav //
 
 
-   
+ /// Contact Form validation code ///
+ const form  = document.getElementById('contact-form'); 
+ const firstName = document.getElementById('firstname'); 
+ const lastName  = document.getElementById('lastname'); 
+ const email  = document.getElementById('email'); 
+ const message  = document.getElementById('msg'); 
+ const locationURLArray = window.location.href.split('/'); 
 
-/// Contact Form Reset ///
-const locationURLArray = window.location.href.split('/'); 
+ 
+
+
+
+/// Contact Form Reset & Validation ///
+
 if(locationURLArray[3] === 'contact.html'){
-    const form  = document.getElementById('contact-form');
+    
 
     form.addEventListener('submit', function handleClick(event) {
       // 👇️ if you are submitting a form (prevents page reload)
       event.preventDefault();
+
+      if(username.value == ''){
+
+      }
     
       form.reset();
     });

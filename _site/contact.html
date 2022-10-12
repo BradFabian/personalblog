@@ -1,6 +1,15 @@
 <!doctype html>
 <html>
     <head>
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8K4GBEVKEW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8K4GBEVKEW');
+</script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,16 +63,19 @@
                 <div class="input-block">
                   <input type="text" name="firstname" id="firstname"  required="">
                   <span class="placeholder">First Name</span>
+                  <small>Error message</small>
                 </div>
 
                 <div class="input-block">
                   <input type="text" name="lastname" id="lastname"  required="">
                   <span class="placeholder">Last Name</span>
+                  <small>Error message</small>
                 </div>
 
                 <div class="input-block">
                   <input type="email" name="email" id="email" required="">
                   <span class="placeholder">Email</span>
+                  <small>Error message</small>
                 </div>
                 
     
@@ -76,6 +88,7 @@
               <div class="msg-area">
                 
                 <textarea name="msg" id="msg" placeholder="Write message here..." required=""></textarea>
+                <small>Error message</small>
               </div>
               </div>
               <div class="btn-container">
