@@ -12,25 +12,33 @@
 
  
 
+const showError = (input, message) => {
+  const inputBlock = input.parentElement;
+  inputBlock.className = 'input-block error'
+  const small = inputBlock.querySelector('small');
+  small.innerText = message;
+
+}
+
 
 
 /// Contact Form Reset & Validation ///
 
-if(locationURLArray[3] === 'contact.html'){
+
     
 
     form.addEventListener('submit', function handleClick(event) {
       // 👇️ if you are submitting a form (prevents page reload)
       event.preventDefault();
-
-      if(username.value == ''){
-
-      }
+      console.log(firstName.value)
+      if(firstName.value === ''){
+        showError(firstName, 'Username is required');
+      } 
     
-      form.reset();
+      //form.reset();//
     });
 
-}
+
 
 
 
