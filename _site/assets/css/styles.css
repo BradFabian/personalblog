@@ -48,7 +48,7 @@ textarea, input { outline: none; }
 @media (min-width: 481px) and (max-width: 767px) { /* CSS */ }
 
 /*  ##Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px */
-@media (min-width: 320px) and (max-width: 480px) { header { flex-direction: column; } /* CSS */ .blogposts { flex-direction: column; } .about__container { margin: 20px; } .about__content { margin: 20px; } .about__content-img { max-width: 90%; } .blogposts__main { max-width: 100% !important; } .blogposts__main h1 { text-align: center; } .blogposts__featured { margin: 20px; } .form-area { margin: 40px !important; } .footer__group { flex-direction: column !important; } .footer__group ul { padding: 0 !important; text-align: center; } .footer__group-visitor { margin: 10px 0; } .footer__legal { font-size: 1.4rem; } }
+@media (min-width: 320px) and (max-width: 480px) { header { flex-direction: column; } /* CSS */ .blogposts { flex-direction: column; } .about__container { margin: 20px; } .about__content { margin: 20px; } .about__content-img { max-width: 90%; } .blogposts__main { max-width: 100% !important; } .blogposts__main h1 { text-align: center; } .blogposts__featured { margin: 20px; } .blogposts__grid-tags { width: 100% !important; } .form-area { margin: 40px !important; } .footer__group { flex-direction: column !important; } .footer__group ul { padding: 0 !important; text-align: center; } .footer__group-visitor { margin: 10px 0; } .footer__legal { font-size: 1.4rem; } }
 
 .about__content { display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
@@ -147,7 +147,7 @@ header { display: flex; justify-content: space-around; align-items: center; alig
 
 .blogposts__grid-tags ul li { display: inline-block; }
 
-.blogposts__grid-tags { display: flex; flex-direction: row; justify-content: center; align-items: center; }
+.blogposts__grid-tags { display: flex; flex-direction: row; justify-content: center; align-items: center; color: white; background-color: black; width: 80%; padding: .1em 0; margin: .3em auto; transform: skew(-0.02turn, 0.6deg); }
 
 .blogposts__main { max-width: 65%; }
 
