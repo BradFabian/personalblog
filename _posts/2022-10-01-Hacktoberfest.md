@@ -3,6 +3,7 @@ layout: post
 author: B-rad
 title: Another Fun Hacktober Fest
 tags: [Hacktoberfest, Open Source, Git]
+comments: true
 ---
 
 
