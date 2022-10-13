@@ -1,6 +1,0 @@
-I"*<p>There comes a time in every developers life where you have to GET some data from an API endpoint, display it ever so lovingly on the world wide web and not freak out about it. This will be a series of short articles that will run you through the basics of getting data from an API. We will use the <a href="https://swapi.dev/">Star Wars API</a> and display that to the browser. I promise this article will be a blast.
-The act of sending and receiving data over the web is known as an AJAX call. This allows browsers to send and retrieve information, that developers can manipulate to do many different things. There are five main HTTP methods to do this, GET, POST, PUT, PATCH, and DELETE. If you need a refresher the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">MDN docs</a> breaks down HTTP methods. This article will only focus on GET.
-According to the MDN docs the GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
-This is a READ ONLY method and we have no risks of corrupting or mutating data. So let’s dive into using the Javascript Fetch() API to fetch some star wars data.
-We want to get all of the Star Wars Movies according to the <a href="https://swapi.dev/documentation#films">Star Wars API Docs</a> we can call this:</p>
-:ET

@@ -9,7 +9,8 @@ canonical-url: www.mkdircode.com
 <div class="blogposts__main">
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
-
+{{ page.comments }}
+{{ jekyll.environment }}
 {{ content }}
 {% include disqus_comments.html %}
 </div>
