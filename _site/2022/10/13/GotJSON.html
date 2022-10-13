@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+    <head>
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8K4GBEVKEW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8K4GBEVKEW');
+</script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>mkDirCode - Got JSON, Now What?</title>
+        <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+        <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Got JSON, Now What?</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Got JSON, Now What?" />
+<meta name="author" content="B-rad" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="There comes a time in every developers life where you have to GET some data from an API endpoint, display it ever so lovingly on the world wide web and not freak out about it. We will use the Star Wars API and display that to the browser. I promise this article will be a blast. The act of sending and receiving data over the web is known as an AJAX call. This allows browsers to send and retrieve information, that developers can manipulate to do many different things. There are five main HTTP methods to do this, GET, POST, PUT, PATCH, and DELETE. If you need a refresher the MDN docs breaks down HTTP methods. This article will only focus on GET. According to the MDN docs the GET method requests a representation of the specified resource. Requests using GET should only retrieve data. This is a READ ONLY method and we have no risks of corrupting or mutating data. So let’s dive into using the Javascript Fetch() API to fetch some star wars data. We want to get all of the Star Wars Movies according to the Star Wars API Docs we can call this:" />
+<meta property="og:description" content="There comes a time in every developers life where you have to GET some data from an API endpoint, display it ever so lovingly on the world wide web and not freak out about it. We will use the Star Wars API and display that to the browser. I promise this article will be a blast. The act of sending and receiving data over the web is known as an AJAX call. This allows browsers to send and retrieve information, that developers can manipulate to do many different things. There are five main HTTP methods to do this, GET, POST, PUT, PATCH, and DELETE. If you need a refresher the MDN docs breaks down HTTP methods. This article will only focus on GET. According to the MDN docs the GET method requests a representation of the specified resource. Requests using GET should only retrieve data. This is a READ ONLY method and we have no risks of corrupting or mutating data. So let’s dive into using the Javascript Fetch() API to fetch some star wars data. We want to get all of the Star Wars Movies according to the Star Wars API Docs we can call this:" />
+<link rel="canonical" href="http://localhost:4000/2022/10/13/GotJSON.html" />
+<meta property="og:url" content="http://localhost:4000/2022/10/13/GotJSON.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-10-13T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Got JSON, Now What?" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"B-rad"},"dateModified":"2022-10-13T00:00:00-04:00","datePublished":"2022-10-13T00:00:00-04:00","description":"There comes a time in every developers life where you have to GET some data from an API endpoint, display it ever so lovingly on the world wide web and not freak out about it. We will use the Star Wars API and display that to the browser. I promise this article will be a blast. The act of sending and receiving data over the web is known as an AJAX call. This allows browsers to send and retrieve information, that developers can manipulate to do many different things. There are five main HTTP methods to do this, GET, POST, PUT, PATCH, and DELETE. If you need a refresher the MDN docs breaks down HTTP methods. This article will only focus on GET. According to the MDN docs the GET method requests a representation of the specified resource. Requests using GET should only retrieve data. This is a READ ONLY method and we have no risks of corrupting or mutating data. So let’s dive into using the Javascript Fetch() API to fetch some star wars data. We want to get all of the Star Wars Movies according to the Star Wars API Docs we can call this:","headline":"Got JSON, Now What?","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2022/10/13/GotJSON.html"},"url":"http://localhost:4000/2022/10/13/GotJSON.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+       
+    </head>
+  <body>
+    
+   <header>
+    <div class="header-brand"><a class='header-brand__link'href="/">MkdirCode</a></div>
+   
+    <nav class="header__nav">
+        <ul class="menu" role="list">
+            
+            <li class="header__nav-item"><a class="header__nav-item-link" href='/'>Home</a></li>
+            
+            <li class="header__nav-item"><a class="header__nav-item-link" href='/about.html'>About</a></li>
+            
+            <li class="header__nav-item"><a class="header__nav-item-link" href='/contact.html'>Contact</a></li>
+            
+        </ul>
+    </nav>
+
+</header>
+    <main class="blogposts">
+
+
+<div class="blogposts__main">
+<h1>Got JSON, Now What?</h1>
+<p>13 Oct 2022 - B-rad</p>
+
+<p>There comes a time in every developers life where you have to GET some data from an API endpoint, display it ever so lovingly on the world wide web and not freak out about it. We will use the <a href="https://swapi.dev/">Star Wars API</a> and display that to the browser. I promise this article will be a blast.
+The act of sending and receiving data over the web is known as an AJAX call. This allows browsers to send and retrieve information, that developers can manipulate to do many different things. There are five main HTTP methods to do this, GET, POST, PUT, PATCH, and DELETE. If you need a refresher the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">MDN docs</a> breaks down HTTP methods. This article will only focus on GET.
+According to the MDN docs the GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+This is a READ ONLY method and we have no risks of corrupting or mutating data. So let’s dive into using the Javascript Fetch() API to fetch some star wars data.
+We want to get all of the Star Wars Movies according to the <a href="https://swapi.dev/documentation#films">Star Wars API Docs</a> we can call this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"> <span class="kd">const</span> <span class="nx">baseURL</span> <span class="o">=</span> <span class="nx">https</span><span class="p">:</span><span class="c1">//swapi.dev/api/films/</span>
+
+<span class="nx">fetch</span><span class="p">(</span><span class="nx">baseURL</span><span class="p">);</span> </code></pre></figure>
+
+<p>Fetch will return a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a>. In order to do anything with what we fetched it needs to be written in a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/then">.then</a> call which returns a promise:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">fetch</span><span class="p">(</span><span class="nx">baseURL</span><span class="p">)</span>
+<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">response</span><span class="p">))</span></code></pre></figure>
+
+<p>I wanted to console.log the response to show that fetch is responding back with an object..</p>
+
+<p>Well this is interesting.. How do we now get the data. We know from the Star Wars API docs that JSON is the standard data format provided by SWAPI by default. The Fetch <a href="https://developer.mozilla.org/en-US/docs/Web/API/Response/json">.json</a> method will convert to JSON!!</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">fetch</span><span class="p">(</span><span class="nx">baseURL</span><span class="p">)</span>
+<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">));</span></code></pre></figure>
+
+<p>Oh Joy! We got our list of films. Take a peek in the console.</p>
+
+<p>Oh No! Did we do something wrong?!? Wait a second I see some movies in a field called results! Lets try this again..</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">fetch</span><span class="p">(</span><span class="nx">baseURL</span><span class="p">)</span>
+<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">response</span> <span class="o">=&gt;</span> <span class="nx">response</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+<span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">results</span><span class="p">));</span></code></pre></figure>
+
+<p>Amazing and congrats! We are getting our films!! Now what?? We could do a forEach() on that Array and display it or go next level. The Star Wars API gives us the ability to use search with our params. Next article we will wire up a form, use the user input as a search param, use that forEach() on results and attempt to display an GET request from the Star Wars API!
+Until the next time we kick it together…</p>
+
+
+</div>
+<aside class="blogposts__featured">
+    <h3 class="blogposts_featured-heading">Previous Articles</h3>
+    
+    <div class="blogposts__featured-item"><a href="/2022/10/13/GotJSON.html"><h3>Got JSON, Now What?</h3></a><p>13 October 2022</p></div>
+    
+    
+    <div class="blogposts__featured-item"><a href="/2022/10/01/Hacktoberfest.html"><h3>Another Fun Hacktober Fest</h3></a><p>1 October 2022</p></div>
+    
+    
+    <div class="blogposts__featured-item"><a href="/2022/09/21/JAMstack.html"><h3>Welcome to the JAMstack</h3></a><p>21 September 2022</p></div>
+    
+    
+    
+
+</aside>
+</main>
+    <footer>
+    <div class="footer__group">
+        <ul class="footer__links-social">
+            <li class="footer__links-social-links"><a href="https://twitter.com/bleodejaneiro">Twitter</a></li>
+            <li class="footer__links-social-links"><a href="https://www.linkedin.com/in/brad-fabian-5439b6104/">LinkedIn</a></li>
+            <li class="footer__links-social-links"><a href="https://bradfabian.com">Portfolio</a></li>
+          </ul>
+          <ul class="footer__links-resource">
+            <li class="footer__links-resource-links"><a href="https://developer.mozilla.org/en-US/">MDN</a></li>
+            <li class="footer__links-resource-links"><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+            <li class="footer__links-resource-links"><a href="https://www.smashingmagazine.com/">Smashing Magazine</a></li>
+          </ul>
+            <div class="footer__group-visitor">
+            <p class="footer__group-visitor-title">My Visitor Counter</p>
+            <div class="footer__group-counter">
+            <span class="footer__group-counter-number"></span>
+            <span class="footer__group-counter-number"></span>
+            <span class="footer__group-counter-number"></span>
+            <span class="footer__group-counter-number"></span>
+            <span class="footer__group-counter-number"></span>
+            </div>
+            </div>
+    </div>
+      
+     <p class="footer__legal">Blog Designed & Developed By <a href="https://www.bradfabian.com">Fabian Web Dev</a> &copy 2022</p>
+      </footer>
+    
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>

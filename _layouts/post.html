@@ -1,5 +1,7 @@
 ---
 layout: default
+comments: true
+canonical-url: www.mkdircode.com
 ---
 <main class="blogposts">
 
@@ -9,6 +11,7 @@ layout: default
 <p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
 {{ content }}
+{% include disqus_comments.html %}
 </div>
 {% include previous.html%}
 </main>

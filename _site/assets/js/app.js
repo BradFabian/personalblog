@@ -27,7 +27,7 @@ const showError = (input, message) => {
 
     
 
-    form.addEventListener('submit', function handleClick(event) {
+    /*form.addEventListener('submit', function handleClick(event) {
       // 👇️ if you are submitting a form (prevents page reload)
       event.preventDefault();
       console.log(firstName.value)
@@ -36,7 +36,7 @@ const showError = (input, message) => {
       } 
     
       //form.reset();//
-    });
+    });*/
 
 
 
