@@ -21,7 +21,7 @@
 <lastmod>2022-11-09T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/2022/11/20/GrandmaBlog.html</loc>
+<loc>http://localhost:4000/2022/11/20/GrandmaBlogUno.html</loc>
 <lastmod>2022-11-20T00:00:00-05:00</lastmod>
 </url>
 <url>
@@ -36,5 +36,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>
