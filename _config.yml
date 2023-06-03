@@ -2,8 +2,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-
+  - jekyll-paginate
 markdown: kramdown
 highlighter: rouge
+paginate: 5
 kramdown:
   input: GFM

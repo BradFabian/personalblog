@@ -1,6 +1,6 @@
 <aside class="blogposts__featured">
     <h3 class="blogposts_featured-heading">Previous Articles</h3>
-    {% for post in site.posts %}
+    {% for post in site.posts offset: 1 limit:10 %}
     <div class="blogposts__featured-item"><a href="{{ post.url }}"><h3>{{ post.title }}</h3></a><p>{{post.date | date: "%-d %B %Y"}}</p></div>
     
     {% endfor %}

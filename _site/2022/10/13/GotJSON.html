@@ -61,8 +61,7 @@
 <div class="blogposts__main">
 <h1>Got JSON, Now What?</h1>
 <p>13 Oct 2022 - B-rad</p>
-true
-development
+
 <p>There comes a time in every developers life where you have to GET some data from an API endpoint, display it ever so lovingly on the world wide web and not freak out about it. We will use the <a href="https://swapi.dev/">Star Wars API</a> and display that to the browser. I promise this article will be a blast.
 The act of sending and receiving data over the web is known as an AJAX call. This allows browsers to send and retrieve information, that developers can manipulate to do many different things. There are five main HTTP methods to do this, GET, POST, PUT, PATCH, and DELETE. If you need a refresher the <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">MDN docs</a> breaks down HTTP methods. This article will only focus on GET.
 According to the MDN docs the GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
@@ -99,9 +98,40 @@ Until the next time we kick it together…</p>
 
 
 
+
+<div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+        let baseurl = 'https://www.mkdircode.com'
+    this.page.url =  baseurl.concat('http://localhost:4000/2022/10/13/GotJSON.html'); // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'http://localhost:4000/2022/10/13/GotJSON.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://mkdircode.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
 </div>
 <aside class="blogposts__featured">
     <h3 class="blogposts_featured-heading">Previous Articles</h3>
+    
+    <div class="blogposts__featured-item"><a href="/2022/11/20/GrandmaBlog.html"><h3>Grandma needs a blog</h3></a><p>20 November 2022</p></div>
+    
+    
+    <div class="blogposts__featured-item"><a href="/2022/11/09/ES6Variables.html"><h3>ES6 101 - Variables</h3></a><p>9 November 2022</p></div>
+    
+    
+    <div class="blogposts__featured-item"><a href="/2022/10/20/FetchJedi.html"><h3>Got JSON, How to Show it off?</h3></a><p>20 October 2022</p></div>
+    
     
     <div class="blogposts__featured-item"><a href="/2022/10/13/GotJSON.html"><h3>Got JSON, Now What?</h3></a><p>13 October 2022</p></div>
     
@@ -140,7 +170,7 @@ Until the next time we kick it together…</p>
             </div>
     </div>
       
-     <p class="footer__legal">Blog Designed & Developed By <a href="https://www.bradfabian.com">Fabian Web Dev</a> &copy 2022</p>
+     <p class="footer__legal">Blog Designed & Developed By <a href="https://www.bradfabian.com">Fabian Web Dev</a> &copy 2023</p>
       </footer>
     
     <script src="/assets/js/app.js"></script>
