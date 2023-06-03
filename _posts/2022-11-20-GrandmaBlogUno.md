@@ -1,7 +1,7 @@
 ---
 layout: post
 author: B-rad
-title: Grandma needs a blog
+title: Grandma needs a blog Part 1
 tags: [Jamstack, Web Development, Javascript]
 comments: true
 base-url: https://www.mkdircode.com
