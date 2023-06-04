@@ -64,3 +64,12 @@
   .PageNavigation .next {
     text-align: right;
   }
+
+  .post__grid-tags {
+    color: white;
+    background-color: black;
+    width: 40%;
+    padding: .1em 0;
+    margin: .3em auto;
+    transform: skew(-0.02turn, .6deg);
+  }

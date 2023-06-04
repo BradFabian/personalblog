@@ -56,7 +56,7 @@
 
         <div class="contact-me__body">
             <p class="contact-me__paragraph"><span>Welcome</span>, to message the system admin please fill out the fields below and click  submit.</p>
-            <form name="blog-contact" method="POST"  data-netlify="true"  class="form-area" id="contact-form">
+            <form name="blog-contact" method="POST"  data-netlify="true"  data-netlify-recaptcha="true"  class="form-area" id="contact-form">
               <div class="form-area-container">
               <div class="details-area">
 
@@ -91,7 +91,7 @@
                 <small>Error message</small>
               </div>
               </div>
-              <!--<div data-netlify-recaptcha="true"></div>-->
+              <div class="recaptcha" data-netlify-recaptcha="true"></div>
               <div class="btn-container">
                 <button type="submit" name="submit" class="btn" id="btn">Submit</button>
                 </div>
