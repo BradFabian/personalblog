@@ -28,3 +28,9 @@ function scope() {
 }
 
 {% endhighlight %}
+
+
+They are both block scoped, Whats the big differece between const and let?
+Const makes the contract that no rebinding will happen. Basically the const variable remains constant and can not change. If you expect an variable to change use the let. A for loop is a great example. Using let for i allows for scoped binding while using const will not allow i to be changed.
+
+Hope this cleared up var, let and const. Stay tuned for the next es6 bite.
