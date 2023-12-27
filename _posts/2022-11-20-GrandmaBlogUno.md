@@ -7,5 +7,8 @@ comments: true
 base-url: https://www.mkdircode.com
 ---
 
-Grandma needs to show off her macrame. Can't deny th world of such a treat.
-Lets use it as an excuse to create a blog in Eleventy. A little bridie did mention she'll want to sell her macrame and heres hoping Snipcart and Eleventy will intigrate.
+Grandma needs to show off her macrame. Can't deny th world of such a treat. Grandma wants a snazzy home page, an killer about me, a blog to show off her macrame and a way to contact her.  Lets use it as an excuse to create a blog in Eleventy. 
+
+What's Eleventy??
+
+Eleventy is a static site generator. It takes text files, markdown, JSON , remote data sources and puts it all into an api for the developer to grab and us eon the front end. 
