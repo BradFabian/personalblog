@@ -10,6 +10,8 @@
  const message  = document.getElementById('msg'); 
  const locationURLArray = window.location.href.split('/'); 
 
+ // show successful or unsucessful submission ///
+
  
 
 const showError = (input, message) => {
